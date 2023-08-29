@@ -33,6 +33,8 @@ async function Prediction({ params }: Params) {
     <div>
       <h2>Our name</h2>
       <div>Age:{age?.age}</div>
+      <div>Gender:{gender?.gender}</div>
+      <div> Nationality: {nationality?.country[0]?.country_id}</div>
     </div>
   </div>
   );
